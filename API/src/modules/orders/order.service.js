@@ -1,4 +1,4 @@
-import * as repo from "./rating.repository.js";
+import * as repo from "./order.repository.js";
 import { NotFoundError } from "../../core/errors/AppError.js";
 export const getAllRatings = async (query) => {
     return repo.findAll(query);
